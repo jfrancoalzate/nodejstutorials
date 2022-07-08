@@ -4,5 +4,7 @@ body {
 }
 
 .titleClass {
-  color: greenyellow;
+  color: #888222;
+  text-align: center;
+  text-transform: uppercase;
 }
