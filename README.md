@@ -6,6 +6,7 @@ This is the first nodejs app that I do using Github as a repo.
 
 Don't forget the commands in spanish:
 
+<p>
 1.- git clone (dirección de repositorio) ~ "clona el repo localmente"
 2.- git status ~ "indica que archivos han cambiado"
 3.- git add (nombre de archivo) ~ "añadir archivo"
@@ -15,3 +16,5 @@ Don't forget the commands in spanish:
 7.- git push ~ sube todo al repo en GitHub
 
 To be able to see the differences in a file, first it has to be added using the git add command.
+
+</p>
