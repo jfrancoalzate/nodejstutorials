@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: #aaa;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -7,4 +7,13 @@ body {
   color: #888222;
   text-align: center;
   text-transform: uppercase;
+}
+
+button {
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: lightblue;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: large;
 }
