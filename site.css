@@ -3,6 +3,19 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navbar {
+  background-color: black;
+  position: absolute;
+  width: auto;
+}
+
+.nav-menu {
+  border-color: white;
+  padding: 5px 10px;
+  background-color: white;
+  list-style: none;
+}
+
 .titleClass {
   color: #888222;
   text-align: center;
