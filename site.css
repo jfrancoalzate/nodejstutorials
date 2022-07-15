@@ -1,39 +1,41 @@
 body {
-  background-color: #eee;
+  background-color: #f0f7ee;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  background-color: green;
-  /* position: sticky;
-  display: flex;
-  border-radius: 5px;
-  width: auto;
-  height: auto;
-  padding: 0 15px; */
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  background-color: #91a8a4;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu {
   display: inline-flex;
   border-color: white;
-  color: white;
+  color: #f0f7ee;
   background-color: transparent;
   list-style: none;
   cursor: pointer;
-  margin: 0;
+  margin: 20px 10px;
 }
 
 .nav-item:hover {
-  font-size: 1.2rem;
+  border-top: 2px solid #f0f7ee;
+  border-bottom: 2px solid #f0f7ee;
 }
 
 .nav-item {
-  margin: 15px 15px;
-  transition: font-size 0.25s;
+  padding: 5px;
+  margin: auto 15px;
+  transition: border-top 0.4s, border-bottom 0.4s;
 }
 
 .titleClass {
-  color: #888222;
+  color: #a4a7a2;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
   text-align: center;
   text-transform: uppercase;
 }
@@ -41,7 +43,8 @@ body {
 button {
   padding: 6px 12px;
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: #776871;
+  color: #f0f7ee;
   cursor: pointer;
   border-color: transparent;
   font-size: large;
